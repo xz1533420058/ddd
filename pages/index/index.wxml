@@ -1,0 +1,140 @@
+<view class="box">
+  <view class="top"><image src="./img/9d20742861e5382f10d7bb2cb81c8e9c.jpeg" ></image></view>
+  <view class="body" >
+    <view class="anquan">
+      <view class="lift">
+        <image src="./img/anquan.png"></image>
+      </view>
+      <view class="right"><text>安全中心</text></view>
+    </view>
+    <view class="xingren">
+      <view class="lift">
+        <image src="./img/hongbao.png"></image>
+      </view>
+      <view class="right">
+        <text class="text1">获取</text>
+        <text class="text2">新人专享好礼</text>
+        <text class="text3">></text>
+      </view>
+    </view>
+    
+    <view class="chufa" >
+      <view class="top" bindtap="chufadi">
+        <view class="lift">
+
+        </view>
+        <view class="mid">
+          <view class="top1">
+            <text class="text1" wx:if="{{chufaxuanzhe}}">从</text>
+            <text class="text2"  >{{chufa}}</text>
+            <text class="text3" wx:if="{{chufaxuanzhe}}">出发</text>
+          </view>
+          <view class="foot1">
+            <text>司机最快12分钟到达</text>
+          </view>
+        </view>
+        <view class="right">></view>
+      </view>
+      <view class="foot" bindtap="mudidi">
+        <view class="top2">
+            <text class="text1">本单最高立减</text>
+            <text class="text2">10</text>
+            <text class="text1">元</text>
+
+          </view>
+        <view class="box2">
+          <view class="lift"></view>
+        <view class="mid">
+          <text>{{mudi}}</text>
+        </view>
+        <view class="right">
+          <view class="foot2">></view>
+        </view>
+        </view>
+        
+      </view>
+    </view>
+  </view>
+  <view class="driver">
+    <view class="lift">
+      <view class="img">
+        <image src="./img/chezhu.png"></image>
+      </view>
+      <view class="font">
+        <text>车主服务</text>
+      </view>
+    </view>
+    <view class="lift">
+      <view class="img">
+        <image src="./img/qianbao.png"></image>
+      </view>
+      <view class="font">
+        <text>省钱中心</text>
+      </view>
+      <view class="font1">
+        <text>福利</text>
+      </view>
+    </view>
+    
+  </view>
+  <scroll-view>
+    <view class="lunbo">
+      <swiper  indicator-dots='true' autoplay='true' interval='8000' duration='1000' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='white'>
+        <swiper-item wx:for="{{imglunmbo}}" wx:key="id" wx:for-item="dbItem" >
+          <image src="{{dbItem.img}}"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+  </scroll-view>
+  <view class="chaozhi">
+    <view class="top">
+      <view class="lift">
+        <text>超值神卷</text>
+      </view>
+      <view class="right">
+        <view class="font"><text>更多</text></view>
+        <view class="img">
+          <image src="./img/youjiantou.png" ></image>
+        </view>
+      </view>
+    </view>
+    <view class="shangping">
+      <view class="lift">
+        <image src="./img/996.jpg"></image>
+      </view>
+      <view class="mid">
+        <view class="top4"><text>9.9元超值券包</text></view>
+        <view class="mid4">
+          <view class="lift"><text>￥9.9</text>
+          </view>
+          <view class="right"><text>￥14</text></view>
+        </view>
+        <view class="foot4">立减7元×2次</view>
+      </view>
+      <view class="right">
+        <view class="goumai">
+          <text>购买</text>
+        </view>
+      </view>
+    </view>
+    <view class="shangping">
+      <view class="lift">
+        <image src="./img/996.jpg"></image>
+      </view>
+      <view class="mid">
+        <view class="top4"><text>9.9元超值券包</text></view>
+        <view class="mid4">
+          <view class="lift"><text>￥9.9</text>
+          </view>
+          <view class="right"><text>￥14</text></view>
+        </view>
+        <view class="foot4">立减7元×2次</view>
+      </view>
+      <view class="right">
+        <view class="goumai">
+          <text>购买</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

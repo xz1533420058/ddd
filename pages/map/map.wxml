@@ -1,0 +1,48 @@
+
+<view class="map_container">
+  <!--定义页面结构，可以使用地图组件也能使用其他组件 -->
+  <map name="ss" longitude='{{jindu}}' latitude='{{weidu}}' markers="{{markers}}"  include-points="{{markers}}"   show-location="ture" bindtap="chufadi" enable-building="ture" polyline="{{polyline}}"></map>
+</view>
+<view class="box">
+  <view class="body">
+    <view class="anquan">
+      <view class="lift">
+        <image src="../index/img/anquan.png"></image>
+      </view>
+      <view class="right"><text>安全中心</text></view>
+    </view>
+    <view class="xinren">
+      <view class="lift">
+        <image src="../index/img/hongbao.png"></image>
+      </view>
+      <view class="right"><text>代驾新用户</text></view>
+    </view>
+    <view class="jiage">
+      <view class="top"><text>已优惠{{youhui}}元</text></view>
+      <view class="mid1">
+        <view class="gantan">
+          <image src="../index/img/gantan.png"></image>
+        </view>
+        <view class="font">
+          <text class="text1">预估</text>
+          <text class="text2">{{cost}}</text>
+          <text class="text1">元</text>
+          <text class="text3" decode="ture">{{cost+youhui}}元</text>
+        </view>
+      </view>
+      <view class="foot"><text>动态折扣，已抵扣{{youhui}}元</text></view>
+    </view>
+    <view class="font6">
+      <view class="call">
+      <text class="font5">代人叫代驾 ></text>
+    </view>
+    <view class="call1">
+      <text class="font2">立即呼叫代驾</text>
+    </view>
+    <view  class="foot">
+      <view class="font"><text>司机严选</text><image src="../index/img/shuxian.png"></image><text>行程保障</text><image src="../index/img/shuxian.png"></image><text>专业服务</text><image src="../index/img/shuxian.png"></image><text>标准着装</text></view>
+    </view>
+    </view>
+    
+  </view>
+</view>

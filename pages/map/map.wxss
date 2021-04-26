@@ -1,0 +1,157 @@
+.map_container map{
+ height: 55vh;
+ width: 100%;
+}
+.box .body{
+  position: relative;
+  display: flex;
+  margin-top: -8vh;
+  z-index: 2;
+  flex-wrap: wrap;
+  
+}
+.box .body .anquan{
+  display: flex;
+  height: 5vh;
+  width: 30vw;
+  background: white;
+  border-radius: 1vh;
+  margin-left: 2vh;
+}
+.box .body .anquan .lift{
+  margin-top: 1vh;
+}
+.box .body .anquan .lift image{
+  height: 3vh;
+  width: 3vh;
+  margin-left: 1vh;
+}
+.box .body .anquan .right{
+  margin-top: 1vh;
+  margin-left: 2vh;
+  font-size: 12px;
+  margin-top: 1.3vh;
+}
+.xinren{
+  height: 8vh;
+  width: 100%;
+  background: pink;
+  margin-top: 1vh;
+  border-radius: 2vh ;
+  display: flex;
+  
+}
+.xinren image{
+  height: 4vh;
+  width: 4vh;
+  margin-top: 1vh;
+  margin-left: 2vh;
+}
+.xinren .right text{
+  font-size: 14px;
+  font-weight: 550;
+  
+}
+.xinren .right{
+  margin-top: 1.3vh;
+}
+.box .body .jiage{
+  height: 17vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: -2vh;
+  border-radius: 2vh 2vh 0vh 0vh;
+  background: white;
+}
+.jiage .top{
+  width: 100%;
+  height: 8vh;
+ margin-top: 2vh;
+}
+.jiage .top text{
+  text-align: center;
+  margin-left: 60%;
+  color: white;
+  background: red;
+  font-size: 12px;
+  font-weight: 500;
+  padding:0.6vh;
+  border-radius: 2vh 2vh 2vh 0vh;
+  
+}
+.jiage .mid1{
+  width: 100%;
+  display: flex;
+  height: 4vh;
+  justify-content: center;
+  margin-top: -7vh;
+}
+.jiage .mid1 image{
+  height: 2vh;
+  width: 2vh;
+  margin-top: 1vh;
+  margin-right: 0.5vh;
+}
+.jiage .mid1 .font .text1{
+  font-size: 13px;
+} 
+.jiage .mid1 .font .text2{
+  font-size: 20px;
+  font-weight: 550;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+}
+.jiage .mid1 .font .text3{
+  font-size: 13px;
+  text-decoration:line-through;
+  margin-left: 1vh;
+}
+.jiage .foot{
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  margin-top: -5vh;
+  color: 707070;
+}
+.font6 {
+  width: 100%;
+  height: 20vh;
+  background: #e6e6e6;
+}
+.font6 .call{
+  height: 5vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5vh;
+  font-size: 12px;
+}
+.font6 .call1{
+  height: 4vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 1vh;
+}
+.font6 .call1 .font2{
+  color: white;
+  background: black;
+  border-radius: 4vh;
+  padding: 1.8vh 15vh 1.8vh 15vh;
+  font-weight: 550;
+}
+.font6 .foot{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 5vh;
+}
+.font6 .foot text{
+  font-size: 11px;
+  color: #515151;
+}
+.font6 .foot image{
+  height: 1.5vh;
+  width: 1.5vh;
+  margin-top: 2vh;
+}

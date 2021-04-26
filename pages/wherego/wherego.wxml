@@ -1,0 +1,4 @@
+<view class="box">
+  <map name="didi" longitude='{{jindu}}' latitude='{{weidu}}' show-location="ture" bindtap="chufadi"></map>
+</view>
+

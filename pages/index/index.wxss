@@ -1,0 +1,341 @@
+.box{
+ background: #f3f3f3;
+}
+.box .top{
+  position: relative;
+  z-index: 1;
+}
+.box .top image{
+  height: 35vh;
+  width: 100%;
+  border-bottom-left-radius: 3vh;
+  border-bottom-right-radius: 3vh;
+}
+.box .body{
+  position: relative;
+  display: flex;
+  margin-top: -17vh;
+  z-index: 2;
+  margin-left: 2vh;
+  flex-wrap: wrap;
+}
+.box .body .anquan{
+  display: flex;
+  height: 5vh;
+  width: 30vw;
+  background: white;
+  border-radius: 1vh;
+}
+.box .body .anquan .lift{
+  margin-top: 1vh;
+}
+.box .body .anquan .lift image{
+  height: 3vh;
+  width: 3vh;
+  margin-left: 1vh;
+}
+.box .body .anquan .right{
+  margin-top: 1vh;
+  margin-left: 2vh;
+  font-size: 12px;
+  margin-top: 1.3vh;
+}
+.box .body .xingren{
+  height: 8vh;
+  width: 95%;
+  background:  	#FFC0CB;
+  margin-top: 0.5vh;
+  border-radius: 1.5vh;
+  display: flex;
+}
+
+.box .body .xingren .lift image{
+  width: 5vh;
+  height: 5vh;
+  margin-left: 1vh;
+  margin-top: 0.5vh;
+}
+.box .body .xingren .right text{
+   font-size: 12px;
+   font-weight: 600;
+   line-height: 6vh;
+}
+
+.box .body .xingren .right .text2{
+  color:#A0522D;
+}
+.box .body .xingren .right .text3{
+  margin-left: 2vh;
+}
+.box .body .chufa{
+  position: relative;
+  height: 22vh;
+  width: 95%;
+  margin-top: -2.5vh;
+  border-radius: 2vh;
+  background: white;
+  z-index: 3;
+  
+}
+.box .body .chufa .top{
+  position: relative;
+  display: flex;
+  height: 10vh;
+
+  width: 95%;
+  z-index: 4;
+}
+.box .body .chufa .top .lift{
+  height: 1vh;
+  width: 1vh;
+  border-radius: 0.5vh;
+  background: green;
+  margin-top: 3vh;
+  margin-right: 2vh;
+  margin-left: 4vh;
+}
+.box .body .chufa .top .mid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.box .body .chufa .top .right{
+  width: 5%;
+} 
+.box .body .chufa .top .mid .top1{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 2vh;
+  width: 100%;
+}
+.box .body .chufa .top .mid .top1 .text2{
+  color: green;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+.box .body .chufa .top .mid .foot1{
+  font-size: 10px;
+  font-weight: 400;
+  
+}
+.box .body .chufa .top .right{
+  margin-top: 2vh;
+}
+.box .body .chufa .foot{
+  position: relative;
+  display: flex;
+  height: 8vh;
+  width: 90%;
+  margin-left: 5%;
+  z-index: 4;
+  background: #f3f3f3;
+  border-radius: 1.5vh;
+  margin-top: 1vh;
+  flex-flow: wrap;
+}
+.box .body .chufa .foot .top2{
+  display: flex;
+  border-radius: 1vh;
+  font-size: 10px;
+  height: 2.5vh;
+  background: orangered;
+  border-radius: 1vh;
+  padding: 0.5vh;
+  margin-left: 25vh;
+  margin-top: -1vh;
+  position: absolute;
+  
+}
+.box .body .chufa .foot .top2 text{
+  color: white;
+  
+}
+.box .body .chufa .foot  .top2 .text2{
+  font-size: 16px;
+  color: yellow;
+  margin-top: -0.5vh;
+}
+.box .body .chufa .foot  .foot2{
+  margin-top: 2vh;
+  margin-left: auto;
+}
+.box .body .chufa .foot .box2{
+  display: flex;
+  width: 100%;
+}
+.box .body .chufa .foot .box2  .lift{
+  height: 1vh;
+  width: 1vh;
+  border-radius: 0.5vh;
+  background: orangered;
+  margin-top: 4vh;
+  margin-left: 1.5vh;
+  margin-right: 2vh;
+}
+.box .body .chufa .foot .box2  .mid{
+  width: 50%;
+  font-size: 17px;
+  font-weight: 700;
+  margin-top: 1vh;
+  margin: auto;
+  max-lines: 2;
+}
+.box .body .chufa .foot .box2  .right{
+  width: 50%;
+  text-align: right;
+
+}
+
+.driver{
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  width: 80%;
+  margin-left: 10%;
+}
+.driver .lift{
+    height: 10vh;
+    width: 50%;
+}
+.driver .lift .img {
+  width: 100%;
+  text-align: center;
+
+}
+.driver .lift .font{
+  text-align: center;
+  color:  	#708090;
+  font-size: 13px;
+  margin-top: 0.3vh;
+}
+.driver .lift .img image{
+    height: 7vh;
+    width: 7vh;
+}
+.driver .lift .font1 text{
+  background: orangered;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  border-radius: 1vh 1vh 1vh 0vh;
+  color: white;
+  font-size: 13px;
+  
+}
+.driver .lift .font1{
+  margin-left: 10vh;
+  margin-top: -11.5vh;
+}
+.lunbo{
+  height: 18vh;
+  width: 95%;
+  margin-left: 2.5%;
+ 
+
+}
+.lunbo image{
+  height: 18vh;
+  width: 100%;
+  border-radius:1vh;
+}
+.chaozhi{
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 2vh;
+  border-radius: 1vh;
+  background: white;
+}
+.chaozhi .top{
+  padding-top: 2vh;
+  display: flex;
+  height: 5vh;
+  z-index: 3;
+}
+.chaozhi .top image{
+  height: 2.5vh;
+  width: 2.5vh;
+}
+.chaozhi .top .lift{
+  width: 80%;
+  font-size: 16px;
+  font-weight: 550;
+}
+.chaozhi .top .lift text{
+  margin-left: 2vh;
+}
+.chaozhi .top .right{
+  width: 20%;
+  display: flex;
+}
+.chaozhi .top .right .img{
+  height: 100%;
+  margin-top: 0.4vh;
+}
+.chaozhi .top .right text{
+  color: #515151;
+  font-size: 13px;
+  padding-right: 1vh;
+}
+.chaozhi .shangping{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  padding-bottom: 1vh;
+}
+.chaozhi .shangping .lift{
+  height: 10vh;
+  width: 30%;
+}
+.chaozhi .shangping image{
+  height: 8vh;
+  width: 12vh;
+  margin-left: 2vh;
+  margin-top: 1vh;
+  border-radius: 0.5vh;
+}
+.chaozhi .shangping .mid{
+ width: 45%;
+ display: flex;
+ flex-wrap: wrap;
+ padding-left: 1vh;
+ padding-top: 1vh;
+}
+.chaozhi .shangping .mid .top4{
+  width: 100%;
+  font-size: 13px;
+}
+.chaozhi .shangping .mid .mid4{
+  display: flex;
+  width: 100%;
+  height: 2vh;
+  margin-top: -1vh;
+  text-indent : -2px;
+}
+.chaozhi .shangping .mid .mid4 .lift{
+  font-size: 15px;
+  color:  	#FF7F50;
+}
+.chaozhi .shangping .mid .mid4 .right{
+  color: #515151;
+  font-size: 12px;
+  text-decoration:line-through;
+  text-indent : -2px;
+  margin-top: 0.5vh;
+  margin-left: -1vh;
+}
+.chaozhi .shangping .mid .foot4{
+  width: 100%;
+  font-size: 10px;
+  color: #515151;
+}
+.chaozhi .shangping .right{
+  width: 25%;
+ margin:  auto;
+
+}
+.chaozhi .shangping .right .goumai text{
+  background: #FFF0F5;
+  font-size: 12px;
+  color:  	#FF7F50;
+  padding: 0.5vh 2vh 0.5vh 2vh;
+  border-radius: 2vh;
+}
