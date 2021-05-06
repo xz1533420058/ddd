@@ -1,0 +1,98 @@
+.box{
+  background:  	 	#F0F8FF;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.box .top1{
+  color: red;
+  font-weight: 500;
+  font-size: 23px;
+  padding-top: 5vh;
+}
+.box .top2{
+  font-size: 13px;
+  font-weight: 300;
+  padding-top: 1vh;
+  color: #A9A9A9;
+} 
+.box .top3{
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  background: white;
+  margin-top: 1vh;
+  border-radius: 1vh;
+  border: #F5F5DC solid 1px;
+}
+.box .top3 .fontbox{
+  width: 100%;
+  margin-left: 2vh;
+  padding-bottom: 1vh;
+}
+.box .top3 .fontbox .font1{
+  color:  	#A9A9A9;
+  font-size: 12px;
+  padding-top: 1vh;
+  
+}
+.box .top3 .fontbox .font1{
+  font-size: 13px;
+  font-weight: 400;
+}
+.box .top4{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-top: 35vh;
+}
+.box .top4 .top{
+  font-size: 13px;
+  font-weight: 400;
+  padding-bottom: 1vh;
+}
+.box .top4  .fontbox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.box .top4  .fontbox .box1{
+  display: flex;
+  font-size: 12px;
+  width: 100%;
+  color: #696969;
+  margin-top: 1vh;
+}
+
+.box .top4  .fontbox .box1  image{
+  height: 2vh;
+  width: 2vh;
+  margin-right: 1vh;
+}
+.box .top4 .foot{
+  width: 100%;
+  text-align: center;
+  margin-top: 4vh;
+}
+.box .top4 .foot text{
+  padding: 0vh 2vh 0vh 2vh;
+  width: 100%;
+  background: red;
+  color: white;
+  border-radius: 3vh;
+  text-align: center;
+  padding: 1.5vh 15vh 1.5vh 15vh;
+}
+.box .top4 .foot2{
+  width: 100%;
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 12px;
+  color: #696969;
+}

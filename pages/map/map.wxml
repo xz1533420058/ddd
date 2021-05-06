@@ -36,7 +36,7 @@
       <view class="call">
       <text class="font5">代人叫代驾 ></text>
     </view>
-    <view class="call1">
+    <view class="call1" bindtap="gowait">
       <text class="font2">立即呼叫代驾</text>
     </view>
     <view  class="foot">

@@ -1,0 +1,30 @@
+<view class="box">
+  <view class="box1" >
+    <view class="top1">
+      <view class="lift"></view>
+      <view class="right"><text>{{qidian}}</text></view>
+    </view>
+    <view class="top2">
+      <view class="lift"></view>
+      <view class="rught"><text>{{zhongdian}}</text></view>
+    </view>
+  </view>
+  <view class="box2">
+    <view class="top">
+      <text>正在为您寻找司机，请耐心等待</text>
+    </view>
+    <view class="mid ">
+      <view class="font1">已等待</view>
+      <view class="font2"><label>{{minute}}:{{second}}</label></view>
+    </view>
+    <view class="foot" bindtap="quxiao">
+      <view class="img"><image src="../index/img/cuo.png"></image></view>
+      <text>取消订单</text>
+    </view>
+  </view>
+  <view class="box3" style="width: 714rpx; height: 48rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+    <view class="font1">
+      <text >立即下单，享代驾安心服务</text>
+      </view>
+    </view>
+</view>

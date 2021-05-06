@@ -1,0 +1,167 @@
+<!--pages/vip/vip.wxml-->
+<view class="box">
+  <swiper  interval='8000' duration='1000' previous-margin="20px" next-margin='20px' class="swiper1">
+    <swiper-item>
+      <view class="vipbox">
+        <view class="top">
+          <view class="top1"><text>当前等级</text>
+          </view>
+          <view class="mid1"><image src="../index/img/DIDI.png"></image></view>
+          <view class="mid2"><text>代驾普通用户</text></view>
+          <view class="mid3"><text>您近6个月已代架1次</text></view>
+        </view>
+        <view class="foot">
+          <view class="box2"  wx:for="{{tequantop}}"    wx:key="id" wx:for-item="dbItem">
+            <view class="top3"><text style="{{dbItem.style}}">{{dbItem.title}}</text></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+         
+        </view>
+        <view class="foot" >
+          <view class="box2"  wx:for="{{tequan}}"    wx:key="id" wx:for-item="dbItem" wx:if="{{showtequan}}">
+            <view class="top3"></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+          <view class="sanjiao" bindtap="isshowtequan"><image src="{{img}}"></image></view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="vipbox">
+        <view class="top">
+          <view class="top1"><text>当前等级</text>
+          </view>
+          <view class="mid1"><image src="../index/img/DIDI.png"></image></view>
+          <view class="mid2"><text>代驾普通用户</text></view>
+          <view class="mid3"><text>您近6个月已代架1次</text></view>
+        </view>
+        <view class="foot">
+          <view class="box2"  wx:for="{{tequantop}}"    wx:key="id" wx:for-item="dbItem">
+            <view class="top3"><text style="{{dbItem.style}}">{{dbItem.title}}</text></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+         
+        </view>
+        <view class="foot" >
+          <view class="box2"  wx:for="{{tequan}}"    wx:key="id" wx:for-item="dbItem" wx:if="{{showtequan}}">
+            <view class="top3"></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+          <view class="sanjiao" bindtap="isshowtequan"><image src="{{img}}"></image></view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="vipbox">
+        <view class="top">
+          <view class="top1"><text>当前等级</text>
+          </view>
+          <view class="mid1"><image src="../index/img/DIDI.png"></image></view>
+          <view class="mid2"><text>代驾普通用户</text></view>
+          <view class="mid3"><text>您近6个月已代架1次</text></view>
+        </view>
+        <view class="foot">
+          <view class="box2"  wx:for="{{tequantop}}"    wx:key="id" wx:for-item="dbItem">
+            <view class="top3"><text style="{{dbItem.style}}">{{dbItem.title}}</text></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+         
+        </view>
+        <view class="foot" >
+          <view class="box2"  wx:for="{{tequan}}"    wx:key="id" wx:for-item="dbItem" wx:if="{{showtequan}}">
+            <view class="top3"></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+          <view class="sanjiao" bindtap="isshowtequan"><image src="{{img}}"></image></view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="vipbox">
+        <view class="top">
+          <view class="top1"><text>当前等级</text>
+          </view>
+          <view class="mid1"><image src="../index/img/DIDI.png"></image></view>
+          <view class="mid2"><text>代驾普通用户</text></view>
+          <view class="mid3"><text>您近6个月已代架1次</text></view>
+        </view>
+        <view class="foot">
+          <view class="box2"  wx:for="{{tequantop}}"    wx:key="id" wx:for-item="dbItem">
+            <view class="top3"><text style="{{dbItem.style}}">{{dbItem.title}}</text></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+         
+        </view>
+        <view class="foot" >
+          <view class="box2"  wx:for="{{tequan}}"    wx:key="id" wx:for-item="dbItem" wx:if="{{showtequan}}">
+            <view class="top3"></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+          <view class="sanjiao" bindtap="isshowtequan"><image src="{{img}}"></image></view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="vipbox">
+        <view class="top">
+          <view class="top1"><text>当前等级</text>
+          </view>
+          <view class="mid1"><image src="../index/img/DIDI.png"></image></view>
+          <view class="mid2"><text>代驾普通用户</text></view>
+          <view class="mid3"><text>您近6个月已代架1次</text></view>
+        </view>
+        <view class="foot">
+          <view class="box2"  wx:for="{{tequantop}}"    wx:key="id" wx:for-item="dbItem">
+            <view class="top3"><text style="{{dbItem.style}}">{{dbItem.title}}</text></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+         
+        </view>
+        <view class="foot" >
+          <view class="box2"  wx:for="{{tequan}}"    wx:key="id" wx:for-item="dbItem" wx:if="{{showtequan}}">
+            <view class="top3"></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+          <view class="sanjiao" bindtap="isshowtequan"><image src="{{img}}"></image></view>
+        </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="vipbox">
+        <view class="top">
+          <view class="top1"><text>当前等级</text>
+          </view>
+          <view class="mid1"><image src="../index/img/DIDI.png"></image></view>
+          <view class="mid2"><text>代驾普通用户</text></view>
+          <view class="mid3"><text>您近6个月已代架1次</text></view>
+        </view>
+        <view class="foot">
+          <view class="box2"  wx:for="{{tequantop}}"    wx:key="id" wx:for-item="dbItem">
+            <view class="top3"><text style="{{dbItem.style}}">{{dbItem.title}}</text></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+         
+        </view>
+        <view class="foot" >
+          <view class="box2"  wx:for="{{tequan}}"    wx:key="id" wx:for-item="dbItem" wx:if="{{showtequan}}">
+            <view class="top3"></view>
+            <view class="mid3"><image src="{{dbItem.img}}"></image></view>
+            <view class="foot3"><text>{{dbItem.name}}</text></view>
+          </view>
+          <view class="sanjiao" bindtap="isshowtequan"><image src="{{img}}"></image></view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

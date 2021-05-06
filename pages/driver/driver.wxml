@@ -1,0 +1,172 @@
+<view class="box">
+  <view class="top1">
+    <view class="toubox">
+      <view class="img"><image src="../index/img/996.jpg"></image></view>
+      <view class="font">
+        <text class="font1">王师傅</text>
+        <text class="font2">编号 508904</text>
+      </view>
+    </view>
+    <view class="hengxian"></view>
+    <view class="foot1">
+      <view class="box1"> 
+        <text class="font1">5.0</text>
+        <text class="font2">星级</text>
+      </view>
+      <view class="shuxian"></view>
+      <view  class="box1">
+        <text class="font1">5152次</text>
+        <text class="font2">安全代驾</text>
+      </view>
+      <view class="shuxian"></view>
+      <view class="box1">
+        <text class="font1">16年</text>
+        <text class="font2">司机驾龄</text>
+      </view>
+    </view>
+  </view>
+  <view class="top2">
+    <view class="top"><text>安全认证</text></view>
+    <view class="henxian"></view>
+    <view class="footbox">
+      <view class="box2">
+        <view class="img"><image src="../index/img/saoyisao.png"> </image></view>
+        <view class="font"><text>人脸识别</text> </view>
+      </view>
+      <view class="box2">
+        <view class="img"><image src="../index/img/useruser.png"></image></view>
+        <view class="font"><text>实名认证</text> </view>
+      </view>
+      <view class="box2">
+        <view class="img"><image src="../index/img/jiashi.png"></image></view>
+        <view class="font"><text>驾照认证</text> </view>
+      </view>
+      <view class="box2">
+        <view class="img"><image src="../index/img/loudou.png"></image></view>
+        <view class="font"><text>背景筛查</text> </view>
+      </view>
+    </view>
+  </view>
+  <view class="top2">
+    <view class="top"><text>服务认证</text></view>
+    <view class="henxian"></view>
+    <view class="footbox">
+      <view class="box2">
+        <view class="img"><image src="../index/img/tongyi1.png"> </image></view>
+        <view class="font"><text>统一形象</text> </view>
+      </view>
+      <view class="box2">
+        <view class="img"><image src="../index/img/tongyi.png"></image></view>
+        <view class="font"><text>标准服务</text> </view>
+      </view>
+      <view class="box2">
+        <view class="img"><image src="../index/img/renzheng.png"></image></view>
+        <view class="font"><text>学习认证</text> </view>
+      </view>
+      <view class="box2">
+        <view class="img"><image src="../index/img/jiqiao.png"></image></view>
+        <view class="font"><text>技能技巧</text> </view>
+      </view>
+    </view>
+  </view>
+  <view class="top2" style="height:23vh">
+    <view class="top"><text>服务评价</text></view>
+    <view class="henxian" style="margin-top:1vh"></view>
+    <view class="box3"  style="margin-top:1vh">
+      <view class="fontbox">
+        <text class="font1">靠谱开车稳</text>
+        <text class="font2">115</text>
+      </view>
+      <view class="fontbox">
+        <text class="font1">师傅态度好</text>
+        <text class="font2">115</text>
+      </view>
+      <view class="fontbox">
+        <text class="font1">及时联系</text>
+        <text class="font2">115</text>
+      </view>
+      <view class="fontbox">
+        <text class="font1">城市活力图</text>
+        <text class="font2">115</text>
+      </view>
+      <view class="fontbox">
+        <text class="font1">停车小助手</text>
+        <text class="font2">115</text>
+      </view>
+      <view class="fontbox">
+        <text class="font1">停车小助手</text>
+        <text class="font2">115</text>
+      </view>
+     
+      
+    </view>
+    
+  </view>
+  <view class="top3">
+    <view class="top"><text>详细评价</text></view>
+    <view class="henxian"></view>
+    <view class="pingjiabox">
+      <view class="top">
+        <view class="left">04-02 13:53:00</view>
+        <view class="right">★★★★★</view>
+      </view>
+      <view class="foot">
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>停车小助手</text></view>
+        <view class="font"><text>及时联系接驾快</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+      </view>
+      <view class="henxian"></view>
+    </view>
+    <view class="pingjiabox">
+      <view class="top">
+        <view class="left">04-02 13:53:00</view>
+        <view class="right">★★★★★</view>
+      </view>
+      <view class="foot">
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>停车小助手</text></view>
+        <view class="font"><text>及时联系接驾快</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+      </view>
+      <view class="henxian"></view>
+    </view>
+    <view class="pingjiabox">
+      <view class="top">
+        <view class="left">04-02 13:53:00</view>
+        <view class="right">★★★★★</view>
+      </view>
+      <view class="foot">
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>停车小助手</text></view>
+        <view class="font"><text>及时联系接驾快</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+      </view>
+      <view class="henxian"></view>
+    </view>
+    <view class="pingjiabox">
+      <view class="top">
+        <view class="left">04-02 13:53:00</view>
+        <view class="right">★★★★★</view>
+      </view>
+      <view class="foot">
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>停车小助手</text></view>
+        <view class="font"><text>及时联系接驾快</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+        <view class="font"><text>城市活力图</text></view>
+      </view>
+      <view class="henxian"></view>
+    </view>
+  </view>
+  <view class="foot222">
+    
+  </view>
+</view>

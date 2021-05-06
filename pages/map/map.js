@@ -1,4 +1,5 @@
 var amapFile = require('../../libs/amap-wx.js')
+const app =getApp()
 
 Page({
   data:{
@@ -7,7 +8,9 @@ Page({
     endjindu:Number,
     endweidu:Number,
     yuanjia:Number,
-    youhui:12,
+    youhui:12
+    
+    ,
     markers: [ //标志点的位置
       //位置0
     ],
@@ -15,23 +18,26 @@ Page({
     distance: '',
     cost: Number,
   },
-  onLoad: function(res) {
+  onLoad: function() {
     var that= this;
     var key = '2e097df9b4d768ca1b5060444c1ebfe0';
     var myAmapFun = new amapFile.AMapWX({key:'2e097df9b4d768ca1b5060444c1ebfe0'});
-    console.log(res)
+    var jindu=app.globalData.myjindu
+    var   weidu=app.globalData.myweidu
+    var  endjindu=app.globalData.endjindu
+    var   endweidu=app.globalData.endweidu
     this.setData({
-      jindu:res.startjindu,
-      weidu:res.startweidu,
-      endjindu:res.endjindu,
-      endweidu:res.endweidu,
+      jindu:jindu,
+      weidu:weidu,
+      endjindu: endjindu,
+      endweidu: endweidu,
       markers: [ //标志点的位置
         //位置0
         {
           id: 0,
           iconPath: "../index/img/qidian.png",
-          latitude: res.startweidu,
-          longitude: res.startjindu,
+          latitude: weidu,
+          longitude: jindu,
           width: 50,
           height: 50
         },
@@ -39,8 +45,8 @@ Page({
         {
           id: 1,
           iconPath: "../index/img/zhongdian.png",
-          latitude:res.endweidu,
-          longitude:res.endjindu,
+          latitude:endweidu,
+          longitude:endjindu,
           width: 50,
           height: 50
         },        
@@ -60,7 +66,6 @@ Page({
               points.push({
                 latitude: parseFloat(poLen[j].split(',')[1]),
                 longitude: parseFloat(poLen[j].split(',')[0])
-               
               })
             } 
           }
@@ -97,5 +102,10 @@ Page({
     })
   
   },
+  gowait(){
+    wx.navigateTo({
+      url: '../wait/wait',
+    })
+  }
   
 })

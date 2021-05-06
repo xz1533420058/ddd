@@ -5,9 +5,9 @@ const app = getApp()
 Page({
   data: {
     imglunmbo:[
-      {img:"./img/996.jpg",id:1},
-      {img:"./img/kaoyu.jpg",id:2},
-      {img:"./img/saoxiancao.jpg",id:3},
+      {img:"./img/DDDD.jpg",id:1},
+      {img:"./img/DDDD2.jpg",id:2},
+      {img:"./img/DDDD3.jpg",id:3},
     ],
     startweidu:Number,
     startjindu:Number,
@@ -16,11 +16,17 @@ Page({
     chufa:'请选择出发地',
     mudi:'请输入你的目的地',
     chufaxuanzhe:false,//选择出发地，默认false
-
+    userboxshow:false,
+    guanggaoshow:false,
   },
   // 事件处理函数
   onLoad(){
     
+  },
+  onReady(){
+    this.setData({
+      guanggaoshow:true
+    })
   },
   
   chufadi(){
@@ -50,10 +56,14 @@ Page({
         latitude: that.data.weidu,
         longitude: that.data.jindu,
         success(res){
+          app.globalData.Startingaddress=res.address
+          app.globalData.myjindu=res.longitude
+          app.globalData.myweidu=res.latitude  
+
           that.setData({
             chufaxuanzhe:true,
             chufa:res.address,
-           
+            
           })
         }
       })
@@ -75,12 +85,16 @@ Page({
       latitude: that.data.weidu,
       longitude: that.data.jindu,
       success(res){
+        app.globalData.endaddress=res.address
+        app.globalData.endjindu=res.longitude
+        app.globalData.endweidu=res.latitude
         that.setData({
           endweidu:res.latitude,
           endjindu:res.longitude,
         })
         wx.navigateTo({
-          url: '../map/map?endjindu='+that.data.endjindu+'&endweidu='+that.data.endweidu+'&startjindu='+that.data.startjindu+'&startweidu='+that.data.startweidu,
+          // url: '../map/map?endjindu='+that.data.endjindu+'&endweidu='+that.data.endweidu+'&startjindu='+that.data.startjindu+'&startweidu='+that.data.startweidu,
+          url:'../map/map'
         })
         
       }
@@ -88,4 +102,32 @@ Page({
   }
   
 },
+  usershowbox(){
+    if(this.data.userboxshow==false){
+      this.setData({
+        userboxshow:true
+      })
+      
+    }
+    else{
+      this.setData({
+        userboxshow:false
+      })
+    }
+  },
+  godaijinquan(){
+    wx.navigateTo({
+      url: '../MyWelfare/MyWelfare',
+    })
+  },
+  guanggaonoshow(){
+    this.setData({
+      guanggaoshow:false
+    })
+  },
+  govip(){
+    wx.navigateTo({
+      url: '../vip/vip',
+    })
+  }
 })

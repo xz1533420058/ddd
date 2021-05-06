@@ -1,0 +1,166 @@
+.box{
+  background: #FFFFFF;
+  position: relative;
+}
+.box .top{
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  
+}
+.box .top .lift{
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+.box .top .lift .top1{
+  width: 100%;
+  margin-top: 2vh;
+  font-size: 13px;
+}
+.box .top .lift .foot1{
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  margin-top: 0.5vh;
+}
+.box .top .lift .foot1 .font1{
+  font-size: 20px;
+  padding-right: 1vh;
+}
+.box .top .lift .foot1 .font2{
+  font-size: 14px;
+}
+.box map{
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.box  .anquan{
+  display: flex;
+  height: 5vh;
+  width: 30vw;
+  background: white;
+  border-radius: 1vh;
+  margin-top: -7vh;
+  z-index: 2;
+  position: relative;
+  margin-left: 2vh;
+  
+}
+.box .anquan .lift{
+  margin-top: 1vh;
+}
+.box .anquan .lift image{
+  height: 3vh;
+  width: 3vh;
+  margin-left: 1vh;
+}
+.box .anquan .right{
+  margin-top: 1vh;
+  margin-left: 2vh;
+  font-size: 12px;
+  margin-top: 1.3vh;
+}
+.tishi{
+  background: #F0F0F0; 
+  margin-top: 2vh;
+  padding: 1vh;
+  font-size: 12px;
+}
+.tishi .font2{
+  color: #FF8C00;
+}
+.siji{
+  height: 12vh;
+  width: 100%;
+  display: flex;
+}
+.siji .lift{
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.siji .lift .top3{
+  width: 100%;
+  height: 5vh;
+  margin-top: 2vh;
+  margin-left: 2vh;
+  font-size: 20px;
+  font-weight: 550;
+}
+.siji .lift .foot3{
+  display: flex;
+  height: 5vh;
+  margin-left: 2vh;
+  font-size: 13px;
+  color:  	#8F8F8F;
+}
+.siji .lift .foot3 .mid2{
+  padding-left: 1vh;
+  padding-right: 1vh;
+  margin-top: -0.4vh;
+}
+.siji .lift .foot3 .mid2 .font1{
+  color:orange;
+  font-size: 16px;
+  
+}
+.siji .lift .foot3 .right2 text{
+  background: #87CEFF;
+  color: white;
+  font-size: 12px;
+}
+.siji .right{
+  width: 30%;
+}
+.siji .right .img image{
+  height: 7vh;
+  width: 7vh;
+  border-radius: 3.5vh;
+  margin-top: 2.5vh;
+  border:  	#8EE5EE solid 2px;
+  margin-left: 3vh;
+}
+.jiange{
+  height: 0.1vh;
+  width: 100%;
+  background:  	#AAAAAA;
+}
+.box .foot4{
+  display: flex;
+  width: 100%;
+  height: 5vh;
+}
+.box .foot4 .lift{
+  width: 90%;
+  display: flex;
+}
+.box .foot4 .lift .box2 {
+  width: 25%;
+  margin-top: 1.7vh;
+ margin-left: 1.5vh;
+  display: flex;
+  font-size: 11px;
+}
+.box .foot4 .lift .box2 image{
+  height: 2vh;
+  width: 2vh;
+}
+
+.box .foot4 .lift .box2 .shuxian{
+  height: 2vh;
+  width: 0.1vh;
+  background: #AAAAAA;
+  margin-top: 0.3vh;
+}
+.box .foot4 .right{
+  width: 10%;
+}
+.box .foot4 .right .img image{
+  height: 3vh;
+  width: 3vh;
+  margin-top: 1.5vh;
+  margin-left: 0.5vh;
+}

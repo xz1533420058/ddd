@@ -1,0 +1,66 @@
+<view class="box">
+  <view class="henxian"></view>
+  <view class="top1">
+    <view class="left">
+      <view class="top2">
+        <view class="img"><image src="../index/img/shizhong.png"></image></view>
+        <view class="font"><text>04月05日 03：05</text></view>
+      </view>
+      <view class="top2">
+        <view class="img"><image src="../index/img/dingdan.png"></image></view>
+        <view class="font"><text>前往 宏天极居</text></view>
+      </view>
+      <view class="font2"></view>
+    </view>
+    <view class="right" bindtap="godriver">
+        <view class="img">
+          <image src="../index/img/996.jpg"></image>
+        </view>
+      </view>
+  </view>
+  <view class="paytop2">
+    <view class="top3">
+      <view class="left"><text>代驾费用</text></view>
+      <view class="right"><text>266.5元</text> </view>
+    </view>
+    <view class="paybox">
+      <view class="jiagebox">
+        <text class="font1">266.5</text>
+        <text class="font2">元</text>
+      </view>
+      <view class="minxi">
+        <view class="font1"><text>费用明细 ></text></view>
+      </view>
+    </view>
+  </view>
+  <view class="zhifu"><view class="payfont"><text>去支付</text></view></view>
+  <view class="footlift">
+        <view class="box2" bindtap="gobaojin">
+          <view class="lift">
+            <view class="img">
+              <image src="../index/img/jingbao.png"></image>
+            </view>
+            <view class="font"><text>110报警</text></view>
+          </view>
+          
+        </view>
+        <view class="shuxian"></view>
+        <view class="box2" bindtap="quxiao">
+          <view class="lift">
+            <view class="img">
+              <image src="../index/img/dianhua.png"></image>
+            </view>
+            <view class="font"><text>联系司机</text></view>
+          </view>
+        </view>
+        <view class="shuxian"></view>
+        <view class="box2" bindtap="quxiao">
+          <view class="lift">
+            <view class="img">
+              <image src="../index/img/kefu.png"></image>
+            </view>
+            <view class="font"><text>联系客服</text></view>
+          </view>
+        </view>
+      </view>
+</view>

@@ -1,5 +1,25 @@
 <view class="box">
-  <view class="top"><image src="./img/9d20742861e5382f10d7bb2cb81c8e9c.jpeg" ></image></view>
+  <view class="top"><image src="./img/DDDD.jpg"></image></view>
+  <view class="imguser"><image src="./img/user2.png" bindtap="usershowbox"></image><text> Hi, 欢迎使用滴滴代驾</text></view>
+  <view class="userbox" wx:if="{{userboxshow}}">
+    <view class="top1"><text>我的行程</text></view>
+    <view class="henxian"></view>
+    <view class="mid1" bindtap="godaijinquan"><text>代金券</text></view>
+    <view class="henxian"></view>
+    <view class="foot1"><text>退出登陆</text></view>
+  </view>
+<view class="guanggao" wx:if="{{guanggaoshow}}">
+    <view class="top1">
+      <view class="img"><image src="./img/DDDD1.jpg"></image></view>
+      <view class="box3">
+        <view class="font1"><text>首单体验抽66超值代驾券</text></view>
+        <view class="font2"><text>滴滴代驾超值体验官计划火爆招募中</text></view>
+        <view class="font3"><text>立即参与</text></view>
+        <view class="font4"><image src="./img/DIDI.png" ></image><text>滴滴代驾</text></view>
+      </view>
+    </view>
+    <view class="foot1" bindtap="guanggaonoshow"><image src="./img/cuo.png"></image></view>
+  </view>
   <view class="body" >
     <view class="anquan">
       <view class="lift">
@@ -14,14 +34,12 @@
       <view class="right">
         <text class="text1">获取</text>
         <text class="text2">新人专享好礼</text>
-        <text class="text3">></text>
+        <text class="text3"></text>
       </view>
     </view>
-    
     <view class="chufa" >
       <view class="top" bindtap="chufadi">
         <view class="lift">
-
         </view>
         <view class="mid">
           <view class="top1">
@@ -33,14 +51,13 @@
             <text>司机最快12分钟到达</text>
           </view>
         </view>
-        <view class="right">></view>
+        <view class="right"></view>
       </view>
       <view class="foot" bindtap="mudidi">
         <view class="top2">
             <text class="text1">本单最高立减</text>
             <text class="text2">10</text>
             <text class="text1">元</text>
-
           </view>
         <view class="box2">
           <view class="lift"></view>
@@ -48,10 +65,9 @@
           <text>{{mudi}}</text>
         </view>
         <view class="right">
-          <view class="foot2">></view>
+          <view class="foot2"></view>
         </view>
         </view>
-        
       </view>
     </view>
   </view>
@@ -62,6 +78,14 @@
       </view>
       <view class="font">
         <text>车主服务</text>
+      </view>
+    </view>
+    <view class="lift" bindtap="govip">
+      <view class="img">
+        <image src="./img/vip.png"></image>
+      </view>
+      <view class="font">
+        <text>会员中心</text>
       </view>
     </view>
     <view class="lift">
@@ -75,11 +99,10 @@
         <text>福利</text>
       </view>
     </view>
-    
   </view>
   <scroll-view>
     <view class="lunbo">
-      <swiper  indicator-dots='true' autoplay='true' interval='8000' duration='1000' indicator-color='rgba(0, 0, 0, .3)' indicator-active-color='white'>
+      <swiper  indicator-dots='true' autoplay='true' interval='8000' duration='1000' previous-margin="20px" next-margin='20px' >
         <swiper-item wx:for="{{imglunmbo}}" wx:key="id" wx:for-item="dbItem" >
           <image src="{{dbItem.img}}"></image>
         </swiper-item>

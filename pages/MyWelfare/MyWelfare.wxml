@@ -1,0 +1,30 @@
+<!--pages/MyWelfare/MyWelfare.wxml-->
+<view class="box">
+  <view class="top">
+    <view class="lift" bindtap="changetitle1">
+      <view class="font"><text class="{{pbttact===1?'text1':'text2'}}">可使用</text></view>
+      <view class="{{pbttact===1?'foothenxian1':'foothenxian2'}}"></view>
+    </view>
+    <view class="lift" bindtap="changetitle2">
+      <view class="font"><text  class="{{pbttact===2?'text1':'text2'}}">不可使用</text></view>
+      <view class="{{pbttact===2?'foothenxian1':'foothenxian2'}}"></view>
+    </view>
+  </view>
+  <view class="foot">
+    <view class="top"><text>使用规则></text></view>
+    <view class="box1" style="color:{{color}}" wx:for="{{keyong}}"   wx:for-item="dbItem" wx:key="id" >
+      <view class="lift">
+        <view class="top2"><text>{{dbItem.name}}</text></view>
+        <view class="mid2"><text>{{dbItem.name2}}</text></view>
+        <view class="foot2"><text>有效期至：{{dbItem.time}}</text></view>
+      </view>
+      <view class="right">
+        <view class="top1">
+          <text class="font1">{{dbItem.rmb}}</text>
+          <text class="font2">元</text>
+        </view>
+        <view class="foot1"><text>{{dbItem.shiyong}}</text></view>
+      </view>
+    </view>
+  </view>
+</view>

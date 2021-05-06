@@ -1,0 +1,96 @@
+<view class="box">
+  <view class="jiange"></view>
+  <view class="top">
+    <view class="lift">
+      <view class="top1"><text>{{shijijuning}}</text></view>
+      <view class="foot1">
+        <view class="font1">{{distance}}</view>
+        <view class="font2">{{julidanwei}}</view>
+      </view>
+    </view>
+    <view class="lift">
+      <view class="top1"><text>{{shijidaokefu}}</text></view>
+      <view class="foot1">
+        <view class="font1">{{shijian}}</view>
+        <view class="font2">分钟</view>
+      </view>
+    </view>
+  </view>
+  <map style="{{maphight}}" name="sss" longitude='{{jindu}}' latitude='{{weidu}}' markers="{{markers}}"  include-points="{{markers}}"   show-location="ture"  polyline="{{polyline1}}"></map>
+  <view class="anquan">
+      <view class="lift">
+        <image src="../index/img/anquan.png"></image>
+      </view>
+      <view class="right"><text>安全中心</text></view>
+    </view>
+    <view class="tishi" wx:if="{{shijidaoqidian}}">
+      <view class="font">
+        <text class="font1">已为您安排附近最优司机，司机到达后可</text>
+        <text class="font2">免费等您10分钟</text>
+        <text class="font1"> 。为了您的安全，请核对司机身份</text>
+      </view>
+    </view>
+    <view class="jiange"></view>
+    <view class="siji">
+      <view class="lift">
+        <view class="top3"><text>王师傅·编号508904</text></view>
+        <view class="foot3">
+          <view class="lift2"><text>驾龄16年</text></view>
+          <view class="mid2">
+            <text class="font1">★</text>
+            <text>5</text>
+          </view>
+          <view class="right2"><text>黄金司机</text></view>
+        </view>
+      </view>
+      <view class="right" bindtap="godriver">
+        <view class="img">
+          <image src="../index/img/996.jpg"></image>
+        </view>
+      </view>
+    </view>
+    <view class="jiange"></view>
+    <view class="foot4">
+      <view class="lift">
+        <view class="box2" bindtap="gobaojin">
+          <view class="lift">
+            <view class="img">
+              <image src="../index/img/jingbao.png"></image>
+            </view>
+            <view class="font"><text>110报警</text></view>
+          </view>
+          <view class="shuxian"></view>
+        </view>
+        <view class="box2" bindtap="quxiao">
+          <view class="lift">
+            <view class="img">
+              <image src="../index/img/dianhua.png"></image>
+            </view>
+            <view class="font"><text>联系司机</text></view>
+          </view>
+          <view class="shuxian"></view>
+        </view>
+        <view class="box2">
+          <view class="lift">
+            <view class="img">
+              <image src="../index/img/fenxiang.png"></image>
+            </view>
+            <view class="font"><text>行程分享</text></view>
+          </view>
+          <view class="shuxian"></view>
+        </view>
+        <view class="box2" bindtap="quxiao">
+          <view class="lift">
+            <view class="img">
+              <image src="../index/img/cuo.png"></image>
+            </view>
+            <view class="font"><text>取消订单</text></view>
+          </view>
+          <view class="shuxian"></view>
+        </view>
+
+      </view>
+      <view class="right"><view class="img"><image src="../index/img/diandiandian.png"></image></view></view>
+    </view>
+    <view class="jiange"></view>
+</view>

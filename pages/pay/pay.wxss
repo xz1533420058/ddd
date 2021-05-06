@@ -1,0 +1,141 @@
+.box{
+  background: #F0F8FF;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+}
+.box .henxian{
+  height: 1vh;
+  width: 100%;
+}
+.box .top1{
+  display: flex;
+  width: 95%;
+  margin-left: 2.5%;
+  background: white;
+  border-radius: 1vh;  
+}
+.box .top1 .left{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2vh;
+}
+.box .top1 .left .top2 image{
+  height: 2vh;
+  width: 2vh;
+  margin-right: 1vh;
+  margin-top: 0.2vh;
+
+}
+.box .top1 .left .top2{
+  width: 100%;
+  display: flex;
+  font-size: 13px;
+  margin-left: 2vh;
+  padding-bottom: 1vh;
+ 
+}
+.box .top1 .right{
+  width: 20%;
+  text-align: center;
+}
+.box .top1 .right image{
+  height: 6vh;
+  width: 6vh;
+  border: springgreen solid 1px;
+  border-radius: 3vh;
+  margin-top: 1.5vh;
+  
+}
+.box .paytop2{
+  width: 95%;
+  margin-left: 2.5%;
+  display: flex;
+  height: 20vh;
+  border-radius: 1vh;
+  background: white;
+  margin-top: 1vh;
+  flex-wrap: wrap;
+}
+.box .paytop2 .top3{
+  display: flex;
+  width: 100%;
+  height: 3vh;
+  text-align: center;
+  margin-top: 2vh;
+}
+.box .paytop2 .top3 .left{
+  width: 50%;
+  font-size: 15px;
+  font-weight: 45000;
+}
+.box .paytop2 .top3 .right{
+  width: 50%;
+}
+.box .paytop2  .paybox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  text-align: center;
+}
+.box .paytop2  .paybox .jiagebox{
+  width: 100%;
+  text-align: center;
+}
+.box .paytop2  .paybox .jiagebox .font1{
+  font-size: 25px;
+  padding-right: 1vh;
+  font-weight: 650;
+}
+.box .paytop2  .paybox .minxi{
+  width: 100%;
+}
+.box .zhifu{
+  margin-top: 2vh;
+  width: 95%;
+  margin-left: 2.5%;
+  text-align: center;
+  
+  }
+.box .zhifu .payfont{
+  color: white;
+  background: black;
+  width: 100%;
+  padding: 1vh 0vh 1vh 0vh;
+  border-radius: 1vh;
+  font-size: 20px;
+}
+.box   .footlift{
+  width: 95%;
+  display: flex;
+  margin-left: 2.5%;
+  text-align: center;
+  background: white;
+  margin-top: 50vh;
+  border-radius: 1vh;
+}
+.box  .footlift .box2 {
+  width: 33%;
+  margin-top: 1.7vh;
+  display: flex;
+  font-size: 11px;
+  justify-content: center;
+  padding-bottom: 1vh;
+}
+.box  .footlift .box2 .lift{
+  display: flex;
+}
+.box  .footlift .box2 image{
+  height: 2vh;
+  width: 2vh;
+}
+.box   .footlift  .shuxian{
+  height: 2vh;
+  width: 0.1vh;
+  background: #AAAAAA;
+  margin-top: 0.3vh;
+  margin-top: 2vh;
+  
+}

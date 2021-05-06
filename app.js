@@ -12,10 +12,16 @@ App({
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
       }
     })
+    
   },
   globalData: {
-    userInfo: null,
-    // mylatitude： '',
-    // mylongitude： '',
-  }
+    userInfo: 'sss',
+    myjindu:null,
+    myweidu:null,
+    endjindu:null,
+    endweidu:null,
+    Startingaddress:'北京市',
+    endaddress:'北京市'
+    ,
+  },
 })

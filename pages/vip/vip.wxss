@@ -1,0 +1,98 @@
+/* pages/vip/vip.wxss */
+.box{
+  height: 100vh;
+  width: 100%;
+  background: #F0F8FF;
+}
+.box .swiper1{
+  height: 55vh;
+  width: 100%;
+  margin-top: 2vh;
+}
+.box .vipbox{
+  width: 96%;
+  margin: auto;
+  border: yellow solid 2px;
+  border-radius: 2vh 2vh 0vh 0vh;
+}
+.box .vipbox .top{
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background: #778899;
+  border-radius: 2vh 2vh 0vh 0vh;
+}
+.box .vipbox .top .top1{
+  width: 100%;
+  height: 3vh;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 0.3vh;
+}
+.box .vipbox .top .top1 text{
+  background:  	#2d3033;
+  z-index: 3;
+  padding: 0.25vh 1vh 0.25vh 1vh;
+  border-radius: 0vh 2vh 0vh 2vh;
+  color: white;
+}
+.box .vipbox .top .mid1{
+  width: 100%;
+}
+.box .vipbox .top .mid1 image{
+  height: 5vh;
+  width: 5vh;
+}
+.box .vipbox .top .mid2{
+  width: 100%; 
+  font-size: 20px;
+}
+.box .vipbox .top .mid3{
+  width: 100%; 
+  font-size: 12px;
+}
+.box .vipbox .foot{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+}
+.box .vipbox .foot .box2{
+  width: 25%;
+  margin-top: 1vh;
+}
+.box .vipbox .foot .box2 image{
+  height: 3vh;
+  width: 3vh;
+}
+.box .vipbox .foot .box2 .top3{
+  font-size: 12px;
+  margin-left: 4vh;
+  margin-top: 2vh;
+}
+.box .vipbox .foot .box2 .top3 text{
+  color: white;
+  border-radius: 1vh 1vh 1vh 0vh;
+  padding: 0.2vh 0.5vh 0.2vh 0.5vh;
+  background: greenyellow;
+}
+.box .vipbox .foot .box2 .foot3{
+  font-size: 13px;
+}
+.box .vipbox .foot .sanjiao{
+  width: 100%;
+  text-align: center; 
+  height: 3vh;
+  margin-top: 2vh;
+}
+
+.box .vipbox .foot .sanjiao image{  
+  height: 2vh;
+  width: 2vh;
+}

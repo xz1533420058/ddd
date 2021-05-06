@@ -1,0 +1,35 @@
+<!--pages/baojin/baojin.wxml-->
+<view class="box">
+  <view class="top1"><text >遇到危险,请向警方求助</text></view>
+  <view class="top2"><text>谎报警情将被依法追究法律责任</text></view>
+  <view class="top3">
+    <view class="fontbox">
+      <view class="font1"><text>司机信息</text></view>
+      <view class="font2"><text>王师傅 编号508904</text></view>
+    </view>
+    <view class="fontbox">
+      <view class="font1"><text>当前参考位置</text></view>
+      <view class="font2"><text>四川成都郫县</text></view>
+    </view>
+    
+  </view>
+  <view class="top4">
+    <text class="top"><text>当你报警后，滴滴会尝试：</text></text>
+    <view class="fontbox">
+      <view class="box1">
+        <view class="img"><image src="../index/img/userred.png"></image></view>
+        <text>通知紧急联系人</text>
+      </view>
+      <view class="box1">
+        <view class="img"><image src="../index/img/jincha.png"></image></view>
+        <text>将行程信息根据警方要求提供给警放</text>
+      </view>
+      <view class="box1">
+        <view class="img"><image src="../index/img/luying.png"></image></view>
+        <text>整理行程录音供警方处理</text>
+      </view>
+    </view>
+    <view class="foot"><text>☏ 呼叫警察</text></view>
+    <view class="foot2"><text>功能说明 ></text></view>
+  </view>
+</view>

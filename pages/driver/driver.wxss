@@ -1,0 +1,207 @@
+/* pages/driver/driver.wxss */
+.box{
+  height: 100%;
+  width: 100%;
+  background:  	 	#F0F8FF;
+  position: relative;
+  padding-top:2vh ;
+}
+.box .top1{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 28vh;
+  border-radius: 1vh;
+  background: white;
+  
+}
+.box .top1 .toubox{
+  height: 16vh;
+  width: 100%;
+  text-align: center;
+}
+.box .top1 .toubox image{
+  height: 10vh;
+  width: 10vh;
+  border-radius: 5vh;
+  margin-top: 2vh;
+}
+.box .top1 .toubox .font{
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+}
+.box .top1 .toubox .font .font1{
+  padding-right: 2vh;
+}
+.box .top1  .hengxian{
+  height: 0.2vh;
+  width: 100%;
+  background: #DCDCDC;
+  margin-top: 1vh;
+}
+.box .foot1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 6vh;
+}
+.box .foot1 .box1{
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box .foot1 .box1 .font1{
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+}
+.box .foot1 .box1 .font2{
+  width: 100%;
+  font-size: 10px;
+}
+.box .foot1 .shuxian{
+  width: 0.1%;
+  background: #DCDCDC;
+  height: 100%;
+}
+.box .top2{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 2.5%;
+  height: 18vh;
+  border-radius: 1vh;
+  background: white;
+  margin-top: 1vh;
+}
+.box .top2 .top{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 1.5vh;
+  height: 3vh;
+}
+.box .top2 .top text{
+  margin-left: 2vh;
+}
+.box .top2  .henxian{
+  background: #DCDCDC;
+  height: 0.1vh;
+  width: 90%;
+  margin-left: 5%;
+}
+.box .top2 .footbox{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.box .top2 .footbox .box2{
+  width: 25%;
+  text-align: center;
+  font-size: 11px;
+}
+.box .top2 .footbox .box2 image{
+  height: 4vh;
+  width: 4vh;
+  margin-top: 1.5vh;
+}
+.box .top2 .footbox .box2 .font{
+  margin-top: 1vh;
+}
+.box .top2 .box3{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  padding-bottom: 2vh;
+  
+}
+.box .top2 .box3 .fontbox{
+  width: 40%;
+  font-size: 13px;
+  border: #DCDCDC solid 1px;
+  margin-left:  5%;
+  margin-top: 1vh;
+  display: flex;
+  padding: 0.5vh;
+}
+.box .top2 .box3 .fontbox .font1{
+  width: 60%;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+.box .foot222{
+  height: 5vh;
+  width: 100vh;
+}
+.box .top3{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 2.5%;
+  border-radius: 1vh;
+  background: white;
+  margin-top: 1vh;
+}
+.box .top3 .top{
+  width: 100%;
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 1.5vh;
+  height: 3vh;
+}
+.box .top3 .top text{
+  margin-left: 2vh;
+}
+.box .top3  .henxian{
+  background: #DCDCDC;
+  height: 0.1vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1vh;
+}
+.box .top3 .pingjiabox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+}
+.box .top3 .pingjiabox .top{
+  display: flex;
+  width: 100%;
+}
+.box .top3 .pingjiabox .top .left{
+  width: 75%;
+
+}
+.box .top3 .pingjiabox .top .right{
+  width: 25%;
+  color:orange;
+}
+.box .top3 .pingjiabox .foot{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-top: 1vh;
+}
+.box .top3 .pingjiabox .foot .font{
+  margin-right: 4vh;
+  height: 5vh;
+  
+}
+.box .top3 .pingjiabox .foot .font text{
+  padding: 0.5vh 1vh 0.5vh 1vh;
+  border: #DCDCDC solid 1px;
+  font-size: 12px;
+  margin-top: 1vh;
+}
