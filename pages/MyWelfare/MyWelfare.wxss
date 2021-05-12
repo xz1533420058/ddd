@@ -1,6 +1,6 @@
 .box{
   background: #F0FFFF;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 .box .top{
@@ -18,16 +18,14 @@
 .box .top .lift .text1{
   color: orange;
 }
-.box .top .lift .text2{
-}
+
 .box .top .lift .foothenxian1{
   width: 100%;
   height: 0.3vh;
   background: orange;
   margin-top: 2vh;
 }
-.box .top .lift .foothenxian2{
-}
+
 .box .foot{
   display: flex;
   flex-wrap: wrap;
@@ -45,11 +43,12 @@
 .box .foot .box1{
   display: flex;
   width: 100%;
-  height: 12vh;
+  height: 15vh;
   background: white;
   border-radius: 1vh;
   margin-top: 1vh;
   color: #A9A9A9;
+  justify-content: space-between;
 }
 .box .foot .box1 .lift{
   width: 70%;
@@ -84,7 +83,6 @@
 .box .foot .box1 .right .top1 .font1{
   font-size: 25px;
   margin-top: -1vh;
-  margin-left: 4vh;
   padding-right: 0.5vh;
 }
 .box .foot .box1 .right .foot1{
@@ -97,4 +95,30 @@
   border-radius: 1vh;
   padding: 0.25vh 1vh 0.25vh 1vh;
   color: white;
+}
+.dibukiukong{
+  height: 10vh;
+  width: 100%;
+}
+.box .meishuju{
+  position: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 90vh;
+}
+.box .meishuju .img{
+  width: 100%;
+  text-align: center;
+  height: 10vh;
+ margin-top: 40vh;
+}
+.box .meishuju image{
+  height: 10vh;
+  width: 10vh;
+}
+.box .meishuju .font{
+  margin-top: -20vh;
+  font-size: 13px;
 }

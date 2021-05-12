@@ -1,0 +1,69 @@
+.box{
+  height: 100vh;
+  width: 100%;
+  background:#F0F8FF ;
+}
+.box .tophenxian{
+  width: 100%;
+  height: 1.5vh;
+}
+.box .top{
+  width: 90%;
+  margin-left: 5%;
+}
+.box .top image{
+  height: 6vh;
+  width: 6vh;
+}
+.box  .robotbox{
+  background: white;
+  border-radius: 0vh 1vh 1vh 1vh ;
+  width: 70%;
+  margin-left: 5%;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.box  .robotbox .topfont{
+  margin-top: 1vh;
+  font-size: 13px;
+  width: 90%;
+  margin-left: 5%;
+}
+.box  .robotbox .chekbox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 2vh;
+}
+.box   .robotbox .chekbox .fontbox1{
+  color: orange;
+  margin-top: 1vh;
+  border:orange solid 1px;
+  padding: 1vh;
+  border-radius: 3vh;
+  margin-right: 10%;
+  font-size: 14px;
+}
+.box  .robotbox .fontbox1 text{
+  border-radius: 3vh;
+}
+.box .foot{
+  height: 10vh;
+  background: #EFF0F2;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.box .foot .top{
+  width: 100%;
+}
+.box .foot .top .wentibox{
+  display: flex;
+  overflow-x: auto;
+}

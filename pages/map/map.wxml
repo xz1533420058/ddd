@@ -1,7 +1,12 @@
 
 <view class="map_container">
   <!--定义页面结构，可以使用地图组件也能使用其他组件 -->
-  <map name="ss" longitude='{{jindu}}' latitude='{{weidu}}' markers="{{markers}}"  include-points="{{markers}}"   show-location="ture" bindtap="chufadi" enable-building="ture" polyline="{{polyline}}"></map>
+  <map name="ss" longitude='{{jindu}}' latitude='{{weidu}}' markers="{{markers}}"  include-points="{{markers}}"   show-location="ture" bindtap="chufadi" enable-building="ture" polyline="{{polyline}}">
+  <cover-view slot="callout">
+    <cover-view  class="mask" marker-id="0"><text>ssss</text></cover-view>
+    <cover-view class="mask" marker-id="1"><text>bbbb</text></cover-view>
+  </cover-view>
+  </map>
 </view>
 <view class="box">
   <view class="body">

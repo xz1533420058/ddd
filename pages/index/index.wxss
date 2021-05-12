@@ -177,7 +177,7 @@
   height: 8vh;
   width: 95%;
   background:  	#FFC0CB;
-  margin-top: 0.5vh;
+  margin-top: 1vh;
   border-radius: 1.5vh;
   display: flex;
 }

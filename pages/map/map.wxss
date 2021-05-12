@@ -91,7 +91,7 @@
 .jiage .mid1 image{
   height: 2vh;
   width: 2vh;
-  margin-top: 1vh;
+  margin-top: 1.25vh;
   margin-right: 0.5vh;
 }
 .jiage .mid1 .font .text1{
@@ -154,4 +154,9 @@
   height: 1.5vh;
   width: 1.5vh;
   margin-top: 2vh;
+}
+.mask{
+  position: relative;
+  z-index: 5;
+  font-size: 20px;
 }

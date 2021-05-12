@@ -29,7 +29,7 @@
         <text>整理行程录音供警方处理</text>
       </view>
     </view>
-    <view class="foot"><text>☏ 呼叫警察</text></view>
+    <view class="foot" bindtap="baojin"><text>☏ 呼叫警察</text></view>
     <view class="foot2"><text>功能说明 ></text></view>
   </view>
 </view>

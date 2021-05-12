@@ -1,0 +1,30 @@
+<view class="box">
+  <view class="tophenxian"></view>
+  <view class="box1">
+    <view class="top">
+      <text>您的体验始终是我的的头等大事，我们会重视您的问题，并持续优化我们的的服务</text>
+    </view>
+    <view class="chekbox">
+      <view class="chek1" bindtap="chekbox">
+        <view class="left"  style="{{chek.style}}"></view>
+        <view class="right">司机一直不来接我</view>
+      </view>
+      <view class="chek1" bindtap="chekbox1">
+        <view class="left"  style="{{chek1.style}}"></view>
+        <view class="right">司机人未到app上就显示已到达</view>
+      </view>
+      <view class="chek1" bindtap="chekbox2">
+        <view class="left"  style="{{chek2.style}}"></view>
+        <view class="right">司机拒载，让我取消订单</view>
+      </view>
+      <view class="chek1" bindtap="chekbox3">
+        <view class="left"  style="{{chek3.style}}"></view>
+        <view class="right">司机服务态度差</view>
+      </view>
+    </view>
+  </view>
+  <view class="tijiao" style="{{fontcolor}}" bindtap="tijiao">
+    <text>匿名提交</text>
+  </view>
+
+</view>

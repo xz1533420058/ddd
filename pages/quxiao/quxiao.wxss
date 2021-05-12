@@ -1,0 +1,155 @@
+/* pages/quxiao/quxiao.wxss */
+.box{
+  height: 100vh;
+  width: 100%;
+  background: aliceblue;
+  position: relative;
+}
+.topliukong{
+  height: 1.5vh;
+  width: 100%;
+}
+.box .boxtop{
+  width: 95%;
+  margin-left: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 1vh;
+  max-height: 70vh;
+  overflow-y: auto;
+  
+}
+.box .boxtop .boxtoptop{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box .boxtop .boxtoptop .fontbox{
+  width: 90%;
+  margin-left: 5%;
+  
+}
+.box .boxtop .boxtoptop .fontbox .font1{
+  width: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 3vh;
+}
+.box .boxtop .boxtoptop .fontbox .font2{
+  color: #A9A9A9;
+  font-size: 13px;
+}
+.box .boxtop .boxtopchek {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2vh;
+  
+  
+}
+.box .boxtop .boxtopchek .chekbox1{
+  display: flex;
+  flex-wrap: wrap;
+  height: 8vh;
+  width: 100%;
+  
+}
+.box .boxtop .boxtopchek .chekbox1 .left{
+  width: 80%;
+  margin-left: 5%;
+  color: #808080;
+}
+.box .boxtop .boxtopchek .chekbox1 .right{
+  height: 2vh;
+  width: 2vh;
+  border-radius: 1vh;
+  border: #A9A9A9 solid 1px;
+}
+.box .boxtop .boxtopchek .chekbox1 .tophenxian{
+  width: 100%;
+  height: 0.1vh;
+  background:#A9A9A9 ;
+}
+.box .boxtop .more{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box .boxtop .more .tophenxian{
+  width: 100%;
+  height: 0.1vh;
+  background: #A9A9A9;
+  margin-bottom: 2vh;
+  
+}
+.box .boxtop .more image{
+  height: 2vh;
+  width: 2vh;
+}
+.box .boxtop .more .left{
+  font-size: 13px;
+  margin-right: 1vh;
+}
+.box  .nodaijia{
+  width: 95%;
+  background: white;
+  margin-left: 2.5%;
+  border-radius: 1vh;
+  margin-top: 1vh;
+  display: flex;
+  font-size: 13px;
+  
+}
+.box  .nodaijia .left{
+  width: 65%;
+  margin-left: 5%;
+  padding: 2vh 0vh 2vh 0vh;
+}
+.box  .nodaijia .right{
+  width: 30%;
+  margin-top: 2vh;
+}
+.box  .nodaijia .right text{
+  border:#A9A9A9 solid 1px;
+  padding: 1vh;
+  border-radius: 2vh;
+}
+.box .guizhe{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2vh;
+  font-size: 2vh;
+}
+.box .guizhe image{
+  height: 2vh;
+  width: 2vh;
+  margin-top: 0.5vh;
+}
+.box .foot{
+  position:fixed;
+  bottom: 5vh;
+  display: flex;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.box .foot .left{
+  width: 50%;
+  background: white;
+  padding: 2vh 0vh 2vh 0vh;
+  border-radius: 0.5vh;
+  margin-right: 2vh;
+}
+.box .foot .right{
+  width: 50%;
+  background: #191970;
+  padding: 2vh 0vh 2vh 0vh;
+  border-radius: 0.5vh;
+  color: white;
+}

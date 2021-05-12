@@ -18,10 +18,72 @@ Page({
     chufaxuanzhe:false,//选择出发地，默认false
     userboxshow:false,
     guanggaoshow:false,
+    user_name:'Hi'
   },
   // 事件处理函数
   onLoad(){
-    
+    var that = this
+   wx.request({
+     url: 'http://172.16.1.224:5000/login',
+     method:'POST',
+     header:{
+       "content-type":"application/json"
+     },
+     data:{
+        "user_id":1
+    },
+    success(res){
+      if(res.data.code==200){
+        console.log("登录成功")
+        console.log(res.data.back_data.token)
+        var token = res.data.back_data.token
+        try{
+          wx.setStorageSync('usertoken',token)
+        }catch(e){
+          console.log(e)
+        }
+        wx.request({
+          url: 'http://172.16.1.224:5000/get_user',
+          method:"POST",
+          header:{
+            "content-type":"application/json"
+          },
+          data:{
+            "token":token
+         },
+         success(res1){
+           if(res1.data.code==200){
+             try{
+              wx.setStorageSync('userphone', res1.data.back_data.phone)
+              wx.setStorageSync('user_total_credit', res1.data.back_data.user_total_credit)
+              wx.setStorageSync('wx_id', res1.data.back_data.wx_id)
+              wx.setStorageSync('wx_name',  res1.data.back_data.wx_name)
+             }catch(e){
+                console.log(e)
+             }
+             that.setData({
+              user_name:res1.data.back_data.wx_name
+             })
+           }
+           else{
+             wx.showToast({
+               title: '获取用户信息异常',
+               icon:"error",
+               duration:2000
+             })
+           }
+         }
+        })
+      }
+      else{
+        wx.showToast({
+          title: res.data.msg,
+          icon:'error',
+          duration:2000
+        })
+      }
+    } 
+   })
   },
   onReady(){
     this.setData({
@@ -30,7 +92,6 @@ Page({
   },
   
   chufadi(){
-    console.log(1)
     var that = this;
     // var myAmapFun = new amapFile.AMapWX({key:'2e097df9b4d768ca1b5060444c1ebfe0'});
     // myAmapFun.getPoiAround({

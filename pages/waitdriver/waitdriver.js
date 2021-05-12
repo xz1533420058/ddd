@@ -32,6 +32,7 @@ Page({
     shijijuning:'司机据您',
     shijidaoqidian:true,
     maphight:null,
+    kefujiemian:false
   },
   /**
    * 生命周期函数--监听页面加载
@@ -40,6 +41,10 @@ Page({
     var that= this;
     var key = '2e097df9b4d768ca1b5060444c1ebfe0';
     var myAmapFun = new amapFile.AMapWX({key:'2e097df9b4d768ca1b5060444c1ebfe0'});
+    wx.showShareMenu({
+      // 要求小程序返回分享目标信息
+      withShareTicket: true
+    }); 
     var gojindu=app.globalData.myjindu
     var goweidu=app.globalData.myweidu
     var endjindu=app.globalData.endjindu
@@ -117,8 +122,8 @@ Page({
         // }
         // that.setpoints();
         console.log("上面开始")
-        sijiluxian1=setInterval(function(){
-          if(s==points.length-1){
+        sijiluxian1 = setInterval(function(){
+          if(s == points.length-1){
             clearInterval(sijiluxian1)
             that.setpointss()
             wx.showToast({
@@ -150,7 +155,7 @@ Page({
               // }, 
               {
                 id: 2,
-                iconPath: "../index/img/qiche.png",
+                iconPath: "../index/img/dianpingche.png",
                 latitude:points[s].latitude,
                 longitude:points[s].longitude,
                 width: 25,
@@ -253,7 +258,6 @@ Page({
     clearInterval(sijiluxian1)
     clearInterval(sijiluxian2)
   },
-
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
@@ -275,7 +279,7 @@ Page({
       url: '../driver/driver',
     })
   },
-  quxiao(){
+  dianhua(){
     wx.showModal({
       title:'匿名联系司机',
       content:'为了保护您的隐私，使用15656565654匿名拨打',
@@ -284,12 +288,15 @@ Page({
       confirmColor: '#EE7621',
       success(res){
         if(res.confirm){
-        }else if(res.cancel){
           wx.showToast({
             title: '为您接通',
             icon:'none',
             duration:2000,
           })
+         wx.makePhoneCall({
+           phoneNumber: '18040310120',
+         })
+        }else if(res.cancel){       
         }
       }
     })
@@ -305,12 +312,12 @@ Page({
         if(res.confirm){
         }else if(res.cancel){
           wx.showToast({
-            title: '取消成功 为您返回主页',
+            title: '',
             icon:'none',
             duration:2000,
           })
-          wx.redirectTo({
-            url: '../index/index',
+          wx.navigateTo({
+            url: '../quxiao/quxiao',
           })
         }
       }
@@ -444,5 +451,49 @@ Page({
       fail: function(info){  
       }
     })
-  }
+  },
+  onShareAppMessage: function (ops) {
+    if (ops.from === 'button') {
+         // 来自页面内转发按钮
+         console.log(ops.target)
+       }
+    return {
+         title: '转发dom',
+         path: `pages/index/index`,
+         success: function (res) {
+           // 转发成功
+           console.log("转发成功:" + JSON.stringify(res));
+           var shareTickets = res.shareTickets;
+           // if (shareTickets.length == 0) {
+           //   return false;
+           // }
+           // //可以获取群组信息
+           // wx.getShareInfo({
+           //   shareTicket: shareTickets[0],
+           //   success: function (res) {
+           //     console.log(res)
+           //   }
+           // })
+         },
+         fail: function (res) {
+           // 转发失败
+           console.log("转发失败:" + JSON.stringify(res));
+         }
+       }
+     },
+     gokefu(){
+       wx.navigateTo({
+         url: '../kefu/kefu',
+       })
+     },
+     kefuboxopen(){
+       this.setData({
+        kefujiemian:true
+       })
+     },
+     kefuboxclose(){
+      this.setData({
+        kefujiemian:false
+       })
+     }
 })

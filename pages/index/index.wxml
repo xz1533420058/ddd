@@ -1,6 +1,6 @@
 <view class="box">
   <view class="top"><image src="./img/DDDD.jpg"></image></view>
-  <view class="imguser"><image src="./img/user2.png" bindtap="usershowbox"></image><text> Hi, 欢迎使用滴滴代驾</text></view>
+  <view class="imguser"><image src="./img/user2.png" bindtap="usershowbox"></image><text> {{user_name}}, 欢迎使用bibi代驾</text></view>
   <view class="userbox" wx:if="{{userboxshow}}">
     <view class="top1"><text>我的行程</text></view>
     <view class="henxian"></view>
@@ -13,9 +13,9 @@
       <view class="img"><image src="./img/DDDD1.jpg"></image></view>
       <view class="box3">
         <view class="font1"><text>首单体验抽66超值代驾券</text></view>
-        <view class="font2"><text>滴滴代驾超值体验官计划火爆招募中</text></view>
+        <view class="font2"><text>bibi代驾超值体验官计划火爆招募中</text></view>
         <view class="font3"><text>立即参与</text></view>
-        <view class="font4"><image src="./img/DIDI.png" ></image><text>滴滴代驾</text></view>
+        <view class="font4"><image src="./img/DIDI.png" ></image><text>bibi代驾</text></view>
       </view>
     </view>
     <view class="foot1" bindtap="guanggaonoshow"><image src="./img/cuo.png"></image></view>

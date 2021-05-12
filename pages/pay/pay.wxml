@@ -14,7 +14,7 @@
     </view>
     <view class="right" bindtap="godriver">
         <view class="img">
-          <image src="../index/img/996.jpg"></image>
+          <image src="../index/img/997.jpg"></image>
         </view>
       </view>
   </view>
@@ -33,7 +33,7 @@
       </view>
     </view>
   </view>
-  <view class="zhifu"><view class="payfont"><text>去支付</text></view></view>
+  <view class="zhifu" bindtap="zhifubox"><view class="payfont"><text>去支付</text></view></view>
   <view class="footlift">
         <view class="box2" bindtap="gobaojin">
           <view class="lift">
@@ -45,7 +45,7 @@
           
         </view>
         <view class="shuxian"></view>
-        <view class="box2" bindtap="quxiao">
+        <view class="box2" bindtap="dianhua">
           <view class="lift">
             <view class="img">
               <image src="../index/img/dianhua.png"></image>
@@ -54,13 +54,74 @@
           </view>
         </view>
         <view class="shuxian"></view>
-        <view class="box2" bindtap="quxiao">
+        <view class="box2" bindtap="gokefu">
           <view class="lift">
             <view class="img">
               <image src="../index/img/kefu.png"></image>
             </view>
             <view class="font"><text>联系客服</text></view>
           </view>
+        </view>
+      </view>
+      <view class="querenzhifu" wx:if="{{zhifuboxshow}}">
+        <view class="top">
+          <view class="left" bindtap="zhifuboxclose">
+            <image src="../index/img/cuo1.png" ></image>
+          </view>
+          <view class="right"><text>支付</text></view>
+        </view>
+        <view class="fonttopbox">
+          <view class="fontbox5">
+            <view class="left"><text>费用合计</text></view>
+            <view class="right"><text>266.50元</text></view>
+          </view>
+          <view class="fontbox5">
+            <view class="left1"><text>优惠卷</text></view>
+            <view class="right1"><text>暂无可用</text></view>
+          </view>
+        </view>
+        <view class="jiage">
+          <view class="fon1"><text>266.50</text></view>
+          <view class="font2"><text>元</text></view>
+        </view>
+        <view class="mingxi">
+          <view class="left"><text>查看明细</text></view>
+          <view class="right"><image src="../index/img/jinru.png"></image></view>
+        </view>
+        <view class="chekbox">
+          <view class="box1">
+            <view class="left">
+              <view class="left1"><image src="../index/img/zhifuqiche.png"></image></view>
+              <view class="right1"><text>代驾特惠充值</text></view>
+            </view>
+            <view class="right">
+              <view class="left1"><text></text></view>
+              <view class="right1"></view>
+            </view>
+          </view>
+          <view class="box1">
+            <view class="left">
+              <view class="left1"><image src="../index/img/yufu1.png"></image></view>
+              <view class="right1"><text>预付费用[剩余0.00元]</text></view>
+            </view>
+            <view class="right">
+              <view class="left1"><text>-163.00元</text></view>
+              <view class="right1"></view>
+            </view>
+          </view>
+          <view class="box1">
+            <view class="left">
+              <view class="left1"><image src="../index/img/weixinzhifu.png  "></image></view>
+              <view class="right1"><text>微信支付</text></view>
+            </view>
+            <view class="right">
+              <view class="left1"><text></text></view>
+              <view class="right1"></view>
+            </view>
+          </view>
+        </view>
+        <view class="footzhifu">
+          <text>确认支付103.50元</text>
         </view>
       </view>
 </view>

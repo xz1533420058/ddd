@@ -45,7 +45,7 @@
       </view>
       <view class="right" bindtap="godriver">
         <view class="img">
-          <image src="../index/img/996.jpg"></image>
+          <image src="../index/img/997.jpg"></image>
         </view>
       </view>
     </view>
@@ -61,7 +61,7 @@
           </view>
           <view class="shuxian"></view>
         </view>
-        <view class="box2" bindtap="quxiao">
+        <view class="box2" bindtap="dianhua">
           <view class="lift">
             <view class="img">
               <image src="../index/img/dianhua.png"></image>
@@ -70,12 +70,13 @@
           </view>
           <view class="shuxian"></view>
         </view>
-        <view class="box2">
+          <view class="box2">
           <view class="lift">
             <view class="img">
               <image src="../index/img/fenxiang.png"></image>
             </view>
-            <view class="font"><text>行程分享</text></view>
+            <button type="default" class="but" open-type="share">行程分享</button>
+            <!-- <view class="font"><text>行程分享</text></view> -->
           </view>
           <view class="shuxian"></view>
         </view>
@@ -88,9 +89,21 @@
           </view>
           <view class="shuxian"></view>
         </view>
-
       </view>
-      <view class="right"><view class="img"><image src="../index/img/diandiandian.png"></image></view></view>
+      <view class="right" bindtap="kefuboxopen"><view class="img"><image src="../index/img/diandiandian.png"></image></view></view>
     </view>
     <view class="jiange"></view>
+  <view class="kefubox" wx:if="{{kefujiemian}}">
+    <view class="kefuboxtop">
+      <view class="left"><text>更多操作</text></view>
+      <view class="right" bindtap="kefuboxclose"><image src="../index/img/cuo1.png"></image></view>
+    </view> 
+    <view class="jiange"></view>
+    <view class="kefubox1">
+      <view class="box5" bindtap="gokefu">
+        <view class="img"><image src="../index/img/kefu.png"></image></view>
+        <view class="font"><text>联系客服</text></view>
+      </view>
+    </view>
+  </view>  
 </view>

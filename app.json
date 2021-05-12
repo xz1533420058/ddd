@@ -1,19 +1,30 @@
 {
   "pages":[
+    "pages/MyWelfare/MyWelfare",
     "pages/index/index",
-    "pages/waitdriver/waitdriver",
-    "pages/driver/driver",
     
+    "pages/waitdriver/waitdriver",
+    
+    "pages/logs/logs",
+    
+    "pages/robot/robot",
+    "pages/pay/pay",
+    
+    "pages/quxiaoend/quxiaoend",
+    
+    "pages/quxiao/quxiao",
+    "pages/kefu/kefu",
+    "pages/shuadan/shuadan",
+    "pages/fuwuwenti/fuwuwenti",
+    "pages/burenke/burenke",
+    "pages/map/map",
+    "pages/driver/driver",
     "pages/baojin/baojin",
     "pages/vip/vip",
-    
-    "pages/pay/pay",
     "pages/wait/wait",
     
-    "pages/MyWelfare/MyWelfare",
-    "pages/map/map",
-    "pages/wherego/wherego",
-    "pages/logs/logs"
+    "pages/wherego/wherego"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -21,7 +32,6 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
   ,
   "permission": {

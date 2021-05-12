@@ -21,14 +21,43 @@ Page({
       {img:'../index/img/suo.png',name:'帮人免单',title:'至尊',style:"background:#32CD32",id:3}, 
     ],
     showtequan:false,
-    img:'../index/img/shangsanjiao.png'
+    img:'../index/img/shangsanjiao.png',
+    vipGrade:1
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var vip =wx.getStorageSync('user_total_credit')
+    console.log(vip)
+    if(vip>=0 && vip<200){
+      this.setData({
+        vipGrade:0
+      })
+    }
+    else if(vip>=200 && vip<4000){
+      this.setData({
+        vipGrade:1
+      })
+    }
+    else if(vip>=4000 && vip<10000){
+      this.setData({
+        vipGrade:2
+      })
+    }
+    else if(vip>=10000 && vip<40000){
+      this.setData({
+        vipGrade:3
+      })
+    }
+    else if(vip>=40000){
+      this.setData({
+        vipGrade:4
+      })
+    }
+    console.log(this.data.vipGrade)
+    
   },
 
   /**

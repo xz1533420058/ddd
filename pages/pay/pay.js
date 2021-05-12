@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    zhifuboxshow:false
   },
 
   /**
@@ -62,5 +62,47 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  gobaojin(){
+    wx.navigateTo({
+      url: '../baojin/baojin',
+    })
+  },
+  dianhua(){
+    wx.showModal({
+      title:'匿名联系司机',
+      content:'为了保护您的隐私，使用15656565654匿名拨打',
+      cancelText:"关闭",
+      confirmText:"联系司机",
+      confirmColor: '#EE7621',
+      success(res){
+        if(res.confirm){
+          wx.showToast({
+            title: '为您接通',
+            icon:'none',
+            duration:2000,
+          })
+         wx.makePhoneCall({
+           phoneNumber: '18040310120',
+         })
+        }else if(res.cancel){       
+        }
+      }
+    })
+  },
+  gokefu(){
+    wx.navigateTo({
+      url: '../kefu/kefu',
+    })
+  },
+  zhifubox(){
+    this.setData({
+      zhifuboxshow:true
+    })
+  },
+  zhifuboxclose(){
+    this.setData({
+      zhifuboxshow:false
+    })
   }
 })

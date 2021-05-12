@@ -26,7 +26,7 @@
   height: 2vh;
   width: 2vh;
   margin-right: 1vh;
-  margin-top: 0.2vh;
+  margin-top: 0.3vh;
 
 }
 .box .top1 .left .top2{
@@ -97,13 +97,12 @@
   width: 95%;
   margin-left: 2.5%;
   text-align: center;
-  
   }
 .box .zhifu .payfont{
   color: white;
   background: black;
   width: 100%;
-  padding: 1vh 0vh 1vh 0vh;
+  padding: 1.5vh 0vh 1.5vh 0vh;
   border-radius: 1vh;
   font-size: 20px;
 }
@@ -137,5 +136,142 @@
   background: #AAAAAA;
   margin-top: 0.3vh;
   margin-top: 2vh;
-  
+}
+.querenzhifu{
+  position:fixed;
+  bottom: 0vh;
+  width: 100%;
+  height: 53vh;
+  background: white;
+}
+.querenzhifu .top{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 6vh;
+}
+.querenzhifu .top image{
+  width: 3vh;
+  height: 3vh;
+  margin-top: 3vh;
+  padding: 1vh;
+  margin-left: 2vh;
+  position: relative;
+  z-index: 2;
+}
+.querenzhifu .top .left{
+  width: 100%;
+}
+.querenzhifu .top .right{
+  text-align: center;
+  width: 100%;
+  margin-top: -3vh;
+  font-size: 18px;
+  font-weight: 500;
+}
+.querenzhifu .fonttopbox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+  height: 7vh;
+  margin-top: 4vh;
+}
+.querenzhifu .fonttopbox .fontbox5{
+  width: 80%;
+ display: flex;
+ flex-flow: nowrap;
+ justify-content: space-between;
+ margin-left: 10%;
+ 
+}
+.querenzhifu .fonttopbox .fontbox5 .left1{
+  font-size: 14px;
+  font-weight: 500;
+  color: orange;
+}
+.querenzhifu .fonttopbox .fontbox5 .right1{
+  font-size: 12px;
+  color: orange;
+}
+.querenzhifu .fonttopbox .fontbox5 .left{
+  font-size: 14px;
+  font-weight: 500;
+}
+.querenzhifu .fonttopbox .fontbox5 .right{
+  font-size: 12px;
+}
+.querenzhifu .jiage{
+  width: 100%;
+  display: flex;
+  vertical-align: bottom;
+  justify-content: center;
+}
+.querenzhifu .jiage .fon1{
+  font-weight: 550;
+  font-size: 30px;
+  padding-right: 1vh;
+}
+.querenzhifu .jiage .font2{
+  font-size: 13px;
+  margin-top: 2vh;
+}
+.querenzhifu .mingxi{
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  font-size: 2vh;
+  color: #979797;
+}
+.querenzhifu .mingxi image{
+  height: 2vh;
+  width: 2vh;
+  margin-top: 0.5vh;
+}
+.querenzhifu .chekbox{
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2vh;
+}
+.querenzhifu .chekbox .box1{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+.querenzhifu .chekbox .box1 image{
+  height: 2.5vh;
+  width: 2.5vh;
+}
+.querenzhifu .chekbox .box1 .left{
+  width: 70%;
+  display: flex;
+  font-size: 13px;
+}
+.querenzhifu .chekbox .box1 .left .left1{
+  margin-right: 1vh;
+}
+.querenzhifu .chekbox .box1 .right{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  font-size: 13px;
+  color: orange;
+}
+.querenzhifu .chekbox .box1 .right .right1{
+  height: 2vh;
+  width: 2vh;
+  border:#979797 solid 1px ;
+  border-radius: 1.5vh;
+}
+.querenzhifu .footzhifu{
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 2vh 0vh 2vh 0vh;
+  margin-top: 2vh;
 }

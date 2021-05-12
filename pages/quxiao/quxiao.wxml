@@ -1,0 +1,36 @@
+<view class="box">
+  <view class="topliukong"></view>
+  <view class="boxtop">
+    <view class="boxtoptop">
+      <view class="fontbox">
+        <view class="font1"><text>请选择取消原因</text></view>
+        <view class="font2"><text>为帮助我们核实情况，请如实补充取消原因</text></view>
+      </view>
+    </view>
+    <view class="boxtopchek">
+      <view class="chekbox1" wx:for="{{quxiaobox}}"    wx:key="id" wx:for-item="dbItem" bindtap="liyou" data-pid="{{dbItem.id}}" wx:if="{{index<quxiaoboxlen}}">
+        <view class="tophenxian"></view>
+        <view class="left" style="color:{{dbItem.style}}"><text>{{dbItem.font}}</text></view>
+        <view class="right" style="background:{{dbItem.style}}"></view>
+      </view>
+    </view>
+    <view class="more" bindtap="more" wx:if="{{moreshow}}">
+      <view class="tophenxian"></view>
+      <view class="left"><text>点击查看更多原因</text></view>
+      <view class="right"><image src="../index/img/shangsanjiao.png"></image></view>
+    </view>
+  </view>
+  <view class="nodaijia">
+      <view class="left"><text>不想再找他代驾？</text></view>
+      <view class="right"><text>加入黑名单</text></view>
+    </view>
+  <view class="guizhe">
+    <view class="left"><image src="../index/img/gantan.png"></image></view>
+    <view class="right">取消规则</view>
+  </view>
+  
+  <view class="foot">
+    <view class="left" bindtap="back"><text>暂不取消</text></view>
+    <view class="right" bindtap="goquxiao"><text>确认取消</text></view>
+  </view>
+</view>

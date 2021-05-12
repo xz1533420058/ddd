@@ -14,17 +14,24 @@
     <view class="top"><text>使用规则></text></view>
     <view class="box1" style="color:{{color}}" wx:for="{{keyong}}"   wx:for-item="dbItem" wx:key="id" >
       <view class="lift">
-        <view class="top2"><text>{{dbItem.name}}</text></view>
+        <view class="top2"><text>代驾券</text></view>
         <view class="mid2"><text>{{dbItem.name2}}</text></view>
-        <view class="foot2"><text>有效期至：{{dbItem.time}}</text></view>
+        <view class="foot2"><text>有效期至：{{dbItem.end_time}}</text></view>
       </view>
       <view class="right">
         <view class="top1">
-          <text class="font1">{{dbItem.rmb}}</text>
+          <text class="font1">{{dbItem.coupon_amount}}</text>
           <text class="font2">元</text>
         </view>
-        <view class="foot1"><text>{{dbItem.shiyong}}</text></view>
+        <view class="foot1"><text>{{dbItem.status}}</text></view>
       </view>
     </view>
   </view>
+  <view class="meishuju" wx:if="{{zanwushuj}}">
+    <view class="img">
+      <image src="../index/img/meishuju.png"></image>
+    </view>
+    <view class="font"><text>暂无数据</text></view>
+  </view>
+  <view class="dibukiukong"></view>
 </view>

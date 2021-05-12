@@ -1,0 +1,15 @@
+<view class="box">
+  <view class="tophenxian"></view>
+  <view class="box1">
+    <view class="top">
+      <text>您的体验始终是我的的头等大事，我们会重视您的问题，并持续优化我们的的服务</text>
+    </view>
+    <view class="input">
+      <textarea type="text" value="请您多提供一下信息，让我们帮您解决问题" confirm-type="done" maxlength='-1'></textarea>
+    </view>
+  </view>
+  <view class="tijiao" style="{{fontcolor}}" bindtap="tijiao">
+    <text>匿名提交</text>
+  </view>
+
+</view>

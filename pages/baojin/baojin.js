@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  baojin(){
+    wx.makePhoneCall({
+      phoneNumber: '110',
+    })
   }
 })

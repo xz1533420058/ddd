@@ -1,0 +1,29 @@
+<!--pages/quxiaoend/quxiaoend.wxml-->
+<view class="box">
+  <view class="tophen"></view>
+  <view class="box1">
+    <view class="top">
+      <view class="left">
+        <view class="fonttop1">
+          <view class="img"><image src="../index/img/shizhong.png"></image></view>
+          <view class="font"><text>04月26日 14点：08</text></view>
+        </view>
+        <view class="fonttop1">
+          <view class="img"><image src="../index/img/dingdan.png"></image></view>
+          <view class="font"><text>前往 橡树湾</text></view>
+        </view>
+      </view>
+      <view class="right"><image src="../index/img/997.jpg"></image></view>
+    </view>
+    <view class="foot1">
+      <view class="top2">
+        <text>订单已取消</text>
+      </view>
+      <view  class="foot2">
+        <view class="left2"><image src="../index/img/gantan.png"></image></view>
+        <view class="right2"><text>取消规则</text></view>
+      </view>
+    </view>
+  </view>
+  
+</view>

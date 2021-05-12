@@ -1,0 +1,26 @@
+<view class="box">
+  <view class="tophenxian"></view>
+  <view class="top"><view class="img"><image src="../index/img/robot.png"></image></view></view>
+  <view class="robotbox"> 
+    <view class="topfont"><text >您好，我是机器人小滴，有什么可以帮助到您？</text></view>
+    <view class="chekbox">
+      <view class="fontbox1"><text>订单费用与预估价格不一致</text></view>
+    <view class="fontbox1"><text>如何报名代驾司机</text></view>
+    <view class="fontbox1"><text>如何查询司机号码</text></view>
+    <view class="fontbox1"><text >订单结束时显示价格与支付时不一致</text></view>
+    <view class="fontbox1"><text>司机违章如何处理</text></view>
+    <view class="fontbox1"><text>司机加盟要求</text></view>
+    </view>
+   
+  </view>
+  <view class="foot">
+    <view class="top">
+      <view class="wentibox">
+        <view class="wenti1"><text>如何修改手机号码</text></view>
+        <view class="wenti1"><text>如何修改手机号码</text></view>
+        <view class="wenti1"><text>如何修改手机号码</text></view>
+        <view class="wenti1"><text>如何修改手机号码</text></view>
+      </view>
+    </view>
+  </view>
+</view>

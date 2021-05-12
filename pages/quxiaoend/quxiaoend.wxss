@@ -1,0 +1,78 @@
+.box{
+  height: 100vh;
+  width: 100%;
+  background: aliceblue;
+}
+.box .tophen{
+  height: 1.5vh;
+  width: 100%;
+  
+}
+.box  .box1{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: 5%;
+  background: white;
+  border-radius: 1vh;
+}
+.box  .box1 .top{
+  background: #F0FFFF;
+  display: flex;
+  width: 100%;
+  border-radius: 1vh 1vh 0vh 0vh ;
+}
+.box  .box1 .top .left{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin-top: 4vh;
+  padding-bottom: 3vh;
+  font-size: 12px;
+}
+.box  .box1 .top .left .fonttop1{
+  width: 100%;
+  display: flex;
+  margin-top: 1vh;
+}
+.box  .box1 .top .left image{
+  height: 2vh;
+  width: 2vh;
+  margin-right: 2vh;
+  margin-left: 2vh;
+}
+.box  .box1 .top .right{
+  width: 25%;
+}
+.box  .box1 .top .right image{
+  height: 8vh;
+  width: 8vh;
+  border-radius: 4vh;
+  margin-top: 2.5vh;
+  border: #8EE5EE solid 2px;
+}
+.box  .box1 .foot1{
+  width: 100%;
+  background: white;
+  text-align: center;
+  border-radius: 0vh 0vh 1vh 1vh;
+}
+.box  .box1 .foot1 .top2{
+  font-size: 20px;
+  font-weight: 550;
+  margin-top: 5vh;
+}
+.box  .box1 .foot1 .foot2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10vh;
+  padding-bottom: 1vh;
+  font-size: 12px;
+}
+.box  .box1 .foot1 .foot2 image{
+  height: 2vh;
+  width: 2vh;
+  margin-top: 0.2vh;
+  margin-right: 1vh;
+}
